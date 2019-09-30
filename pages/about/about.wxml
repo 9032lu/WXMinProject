@@ -1,0 +1,9 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <image src="/imageSources/deskTop.jpg"></image>
+  <text class="text">电影周周看</text>
+  <text class="text">我每周推荐一部电影</text>
+  <text class="text">我的微博：weibo.com/</text>
+
+
+</view>
