@@ -10,7 +10,7 @@
 }
 
 .about-banner {
-  width: 375rpx;
-  height: 375prx;
+  width: 50rpx;
+  height: 50prx;
   border-radius: 50%;
 }
