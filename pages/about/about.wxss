@@ -1,18 +1,16 @@
 /* pages/about/about.wxss */
-.container{
 
-background-color: #eee;
-height: 100vh;
-text-align: center;
-
-
+.container {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-text{
-
-  display: block;
-}
-
-image,text{
-  margin-bottom: 60px;
+.about-banner {
+  width: 375rpx;
+  height: 375prx;
+  border-radius: 50%;
 }
