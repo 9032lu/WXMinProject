@@ -1,0 +1,28 @@
+/* pages/weekly/weekly.wxss */
+.move-swiper{
+  height: 90vh;
+}
+.move{
+display: flex;
+}
+.movie-card {
+  height: 100%;
+  width: 100%;
+  background: #eee;
+  margin: 0 20rpx;
+  position: relative;
+}
+.movie-image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.return-button{
+   position: absolute;
+  right: 0;
+  top: 40px;
+  font-size: 26rpx;
+  font-style: italic;
+  border:1px solid blue;
+  border-right: 0;
+  border-radius: 10%;
+}

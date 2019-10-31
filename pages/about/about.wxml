@@ -1,10 +1,21 @@
 <!--pages/about/about.wxml-->
 <view class="container">
   <image class="about-banner" src="/imageSources/deskTop.jpg"></image>
-  <text>电影周周看</text>
-  <text>我每周推荐一部电影</text>
+  <text class="about-text">电影周周看</text>
+  <view>
+    <text>我</text>
+    <navigator style="display:inline;" open-type="navigate" hover-class="nav-hover" class="nav-default" url="/pages/weekly/weekly">每周推荐</navigator>
+    <text>一部电影</text>
+  </view>
+
+
   <text>我的微博：weibo.com/</text>
   <text>abc</text>
+  <text>abx</text>
+  <text>abx</text>
+  <text>abx</text>
+  <text>abx</text>
+  <text>abx</text>
   <text>abx</text>
 
 </view>

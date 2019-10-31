@@ -1,16 +1,20 @@
 /* pages/about/about.wxss */
 
-.container {
-  background-color: #eee;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .about-banner {
-  width: 50rpx;
-  height: 50prx;
+  width: 375rpx;
+  height: 375rpx;
   border-radius: 50%;
+}
+.about-text{
+
+font-size: 60rpx;
+font-weight: bold;
+color: red;
+}
+.nav-default{
+
+ color: blue; 
+}
+.nav-hover{
+  color: red;
 }
