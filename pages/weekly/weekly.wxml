@@ -1,11 +1,9 @@
 <!--pages/weekly/weekly.wxml-->
-<view class="">
+<view class="continer">
 
   <swiper class="move-swiper" indicator-dots="{{true}}" indicator-active-color="white" previous-margin="50rpx" next-margin="50rpx" autoplay="true" current="{{currentIndex}}">
     <swiper-item class="move" wx:for="{{weeklyMovieList}}">
-      <view class="container movie-card" bindtap="f1" data-movie-id="{{item.id}}"
-      data-user-name="balskda"
-      >
+      <view class="container movie-card" bindtap="f1" data-movie-id="{{item.id}}" data-user-name="balskda">
         <image class="movie-image" src="{{item.imagePath}}"></image>
         <text>{{item.id}}</text>
         <text>第{{index+1}}周:{{item.name}}</text>
@@ -15,7 +13,7 @@
       </view>
     </swiper-item>
   </swiper>
-
+<text>{{count}}</text>
 
 
 

@@ -31,7 +31,7 @@ Page({
     ],
     count:123,
     score:59,
-
+    currentIndex:0,
 
   },
 
@@ -41,7 +41,7 @@ Page({
    */
   onLoad: function(options) {
     this.setData({
-      currentIndex:this.data.weeklyMovieList.length-1
+      currentIndex:0
     })
   },
 
@@ -88,7 +88,7 @@ Page({
   },
   f0: function (event) {
     this.setData({
-      currentIndex : this.weeklyMovieList.length - 1
+
     })
 
   },
@@ -97,9 +97,8 @@ Page({
 
     console.log(movieID)
 
-    wx.navigateTo({
-      url: 'pages/about',
-    })
+
+
   },
   /**
    * 用户点击右上角分享

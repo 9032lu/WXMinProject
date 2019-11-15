@@ -4,7 +4,7 @@
   <text class="about-text">电影周周看</text>
   <view>
     <text>我</text>
-    <navigator style="display:inline;" open-type="navigate" hover-class="nav-hover" class="nav-default" url="/pages/weekly/weekly">每周推荐</navigator>
+    <navigator style="display:inline;" open-type="switchTab" hover-class="nav-hover" class="nav-default" url="/pages/weekly/weekly">每周推荐</navigator>
     <text>一部电影</text>
   </view>
 
